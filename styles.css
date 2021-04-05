@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
+    padding: 10px;
 }
 
 a {
@@ -9,18 +10,23 @@ a {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 0;
+
 }
 
 .button {
     background-color: #000;
     color: #fff;
-    border: none;
-    margin-top: 10px;
+    width: 100px;
+    margin: auto;
     border-radius: 25px;
     padding: 10px 300px;
     text-align: center;
     display: inline-block;
+}
+
+.nav {
+    padding: 10px;
 }
 
 .grey-text {
@@ -29,12 +35,19 @@ ul {
 
 .about {
     border-left: 2px solid #69696a;
-    padding-left: 10px;
+    padding: 10px;
+    word-wrap: break-word;
 }
 
-footer {
+.footer-nav {
     position: fixed;
+    margin-top: 300px;
     background-color: rgba(247, 193, 162, 0.7);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 
