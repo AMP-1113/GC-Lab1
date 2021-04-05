@@ -1,3 +1,40 @@
-h1 {
-    color: red;
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 10px 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.grey-text {
+    color: #69696a;
+}
+
+.about {
+    border-left: 2px solid #69696a;
+    padding-left: 10px;
+}
+
+footer {
+    position: fixed;
+    background-color: rgba(247, 193, 162, 0.7);
+}
+
+
