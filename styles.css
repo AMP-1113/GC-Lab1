@@ -41,7 +41,10 @@ ul {
 
 .footer-nav {
     position: fixed;
+    left: 0;
+    bottom: 0;
     margin-top: 300px;
+    padding-left: 20px;
     background-color: rgba(247, 193, 162, 0.7);
     width: 100%;
     display: flex;
