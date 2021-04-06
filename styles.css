@@ -5,7 +5,7 @@ body {
 }
 
 .small-name {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 
 .ul-nav {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 0px;
 }
 
 .button {
