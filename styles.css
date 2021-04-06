@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
+  box-sizing: border-box;
 }
 
 .small-name {
@@ -22,7 +23,7 @@ a {
   width: 100px;
   margin: auto;
   border-radius: 25px;
-  padding: 10px 300px;
+  padding: 10px 50%;
   text-align: center;
   display: inline-block;
 }
@@ -35,14 +36,14 @@ a {
   border-left: 2px solid #69696a;
   padding: 10px;
   word-wrap: break-word;
-  width: 700px;
+  width: 100%;
 }
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding-right: 10px;
+  padding-right: 20px;
   padding-left: 10px;
   background-color: rgba(247, 193, 162, 0.7);
   width: 100%;
@@ -55,8 +56,13 @@ footer {
 .ul-footer {
   display: flex;
   justify-content: space-around;
-  width: 25%;
 }
+
+.li-nav {
+  padding: 0 10px;
+}
+
+/* MEDIA QUERY */
 
 @media screen and (min-width: 768px) {
   .desktop-nav-container {
@@ -72,11 +78,49 @@ footer {
     padding: 10px;
   }
 
-  .li-nav {
-    padding: 0 5px
-  }
-
   .desktop-button {
     padding: 10px 0px;
+  }
+
+  .desktop-lorem {
+    width: 50%;
+  }
+
+  /* CIRCLES */
+
+  .circle-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .circle {
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 50%;
+    position: absolute;
+    /* visibility: hidden; */
+    /* display: none; */
+  }
+
+  .circle-sm {
+    width: 65px;
+    height: 65px;
+    background-color: rgba(207, 130, 213, 0.6);
+    top: 300px;
+  }
+
+  .circle-med {
+    width: 85px;
+    height: 85px;
+    background-color: rgba(247, 193, 162, 0.7);
+    top: 345px;
+    right: 15px;
+  }
+
+  .circle-lg {
+    width: 105px;
+    height: 105px;
+    background-color: rgba(247, 136, 167, 0.6);
+    top: 285px;
+    right: 50px;
   }
 }
